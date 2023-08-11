@@ -1,11 +1,14 @@
-    .bi {
-        font-size: 60px;
-        margin-left: 20px;
-    }
-    .verde {
-        color: rgb(82, 248, 82);
-    }
-    .Azul {
-        color: rgb(42, 127, 247);
-    }
-    
+.bi {
+    font-size: 80px;
+    margin-left: 20px;
+}
+.verde {
+    color: green;
+}
+.azul {
+    color: blue;
+}
+.fixed-bottom {
+    bottom: 10px;
+    left: 10px;
+}
