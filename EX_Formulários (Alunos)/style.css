@@ -1,0 +1,55 @@
+/* Definição de estilo do corpo da página */
+body {
+    background-color: #f8f8f8; /* Cor de fundo do corpo */
+}
+
+/* Estilos do formulário */
+#form-container {
+    background-color: #fff; /* Cor de fundo do formulário */
+    border-radius: 20px; /* Arredondamento das bordas */
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+    margin: 25px auto; /* Margens */
+    padding: 25px; /* Preenchimento interno */
+}
+
+/* Estilos específicos para larguras de tela ou iguais a 768px */
+@media(min-width: 768px) {
+    #form-container {
+        margin: 50px auto;
+        padding: 50px;
+    }
+}
+
+/* Estilos para os cabeçalhos do formulário */
+#form-container h2 {
+    font-weight: 900; /* Peso da fonte */
+    margin-bottom: 30px; /* Margem inferior */
+}
+
+/* Estilos para links dentro do formulário */
+#form-container a {
+    color: #222; /* cor do texto do link */
+    transition: .5s; /* Transição suave */
+}
+
+/* Estilos para os links dentro do formulário quando hover */
+#form-container a:hover {
+    color: #009033; /* cor do texto do link ao passar o mouse */
+}
+
+/* Estilos para o formulário */
+#form-container form {
+    padding-bottom: 50px; /* Preenchimento inferior */
+}
+
+/* Estilos para o campos de entrada de formulário */
+#form-container .form-control {
+    border: none; /* Sem borda */
+    border-bottom: 1px solid #ccc; /* Borda inferior */
+    border-radius: 0; /* Sem arredondamento */
+}
+
+/* Estilos para o campo de entrada quando em foco */
+#form-container .form-control:focus {
+    box-shadow: none; /* sem sombra */
+}
